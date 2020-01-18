@@ -178,7 +178,7 @@ customize-game-behavior:
   # Eating the head regenerates your team for 5 seconds
   add-regen-head-drop-on-player-death: false
   # Set this to true to double the health given to your team.
-  double-regen-head: false
+  double-regen-head: true
 
 
   # When golden heads are enabled on players death a skull will drop.
@@ -186,7 +186,7 @@ customize-game-behavior:
   # Golden heads heal 4 hearths instead of 2 for normal golden apples.
   enable-golden-heads: true
   # Set to true to place skull on a fence pole instead of dropping it on the ground.
-  place-head-on-fence: false
+  place-head-on-fence: true
 
 
   # Set it to false to disable the sound on player death
@@ -198,7 +198,7 @@ fast-mode:
 
   # Set to true if you want all playing players to be healed at a set time.
   final-heal:
-    enable: false
+    enable: true
     delay: 1200
 
   underground-nether:
@@ -294,7 +294,7 @@ fast-mode:
 
     # Set it to true to enable this feature.
     # If requires pre-generate-world to be enabled in order to generate more ores
-    enable: false
+    enable: true
 
     # Configure the blocks to be generated
     # The names should be existing material names
@@ -409,7 +409,7 @@ pre-generate-world:
 #Setting up the world border
 border:
   #Set it to true to make the border reduce slowly
-  moving: false
+  moving: true
 
   #Starting size of the border (500 means +500x, -500x, +500z, -500z)
   start-size: 500
@@ -485,7 +485,7 @@ world-list:
 #Enable bungee-coord support to send players back to the server of your choice when the game ends
 bungee-support:
   #Set it to true to send players back to a server at the end
-  enable: false
+  enable: true
   #Set it to true if you want players to get a return to lobby item on their hotbar.
   use-lobby-item: true
   #The name of the server (same as in your bungee config)
@@ -514,7 +514,7 @@ custom-events:
 
 # When set to true, the plugin won't delete the last world, it will just load it. It will also ignore the map pre-generator.
 # This is to allow fast-configuration, to avoid creating new worlds when you only want to configure some other features.
-debug: false
+debug: true
 # When set to true, the game won't end when only one player is left. This can be used to play alone in order to test games.
 one-player-mode: false
 # Set to false if you want to disable auto update.
